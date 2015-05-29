@@ -129,31 +129,32 @@ img {
 	max-width: 700px;
 }
 
-.article1{
-	margin-top: 70px;
-	border-bottom: 1px solid #033048;
-	padding-bottom: 30px;
+.article{
+  margin-top: 70px;
+  border-bottom: 1px solid #033048;
+  padding-bottom: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.article1 p{
+.article h2{
+  color: #033048;
+  line-height: 44px;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.article p{
 	line-height: 30px;
 	font-weight: 300;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
-.article2{
-	margin-top: 70px;
-	border-bottom: 1px solid #033048;
-	padding-bottom: 30px;
-}
 
-.article2 p{
-	line-height: 30px;
-	font-weight: 300;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 
 h3{
 	color: #999;
@@ -303,4 +304,9 @@ footer p{
 .twitter {
   float: left;
   margin-left: 45%;
+}
+
+
+.extend-text {
+  display: none;
 }
